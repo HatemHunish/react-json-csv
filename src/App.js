@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { AppBar, Box, Container, Toolbar, Typography } from "@mui/material";
 import QueryInput from "./components/QueryInput";

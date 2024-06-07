@@ -1,7 +1,7 @@
 import  "react-tabulator/lib/css/bootstrap/tabulator_bootstrap.css";
 import { ReactTabulator } from 'react-tabulator'
 import { useEffect, useRef, useState } from "react";
-import { Box, Button, CircularProgress, setRef } from "@mui/material";
+import { Box, Button, CircularProgress } from "@mui/material";
 
 
 function ResultsTable({data,dataReady}) {
