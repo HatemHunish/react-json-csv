@@ -40,9 +40,10 @@ useEffect(() => {
         let values=Object.values(data);
         seValues([...values])
         }  
+    const title = new Date().toISOString();
     const download=async()=>{
         console.log(table.current)
-       table.current.download("xlsx", "data.xlsx");
+       table.current.download("xlsx", `${title}.xlsx`);
      
       
         }  
