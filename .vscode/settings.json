@@ -3,5 +3,9 @@
         "activityBar.background": "#312E1A",
         "titleBar.activeBackground": "#454125",
         "titleBar.activeForeground": "#FAFAF6"
-    }
+    },
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
 }
